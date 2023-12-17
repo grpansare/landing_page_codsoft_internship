@@ -1,0 +1,257 @@
+
+*{
+	box-sizing: border-box;
+}
+.navlinks{
+	margin:0 10px;
+}
+.navbar{
+	height: 140px;
+	
+	
+}
+.navbar::before{
+content: " ";
+/* color:white; */
+
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.7;
+}
+.name{
+
+	margin: 13px 30px;
+	
+}
+
+
+a.logo{
+	margin-left: 20px;
+	font-weight: bolder;
+	color: white;
+}
+.nvb{
+	background-color: #151B54;
+	height: 75px;
+	color: white;
+}
+
+.registerb{
+	background-color: rgb(128, 7, 104);
+	width: 130px;
+	height: 40px;
+	padding:10px 30px;
+	border-radius: 4px;
+	position: relative;
+	top: 20px;
+	left: 300px;
+	text-decoration: none;
+	color: white;
+	
+}
+.cards{
+	margin:40px 0;
+    gap: 24px;
+}
+.card{
+	border-radius: 25px;
+	transition: all 0.5s;
+}
+.card h5{
+	text-align: center;
+}
+.card:hover{
+	transform: scale(1.03);
+}
+.medicines{
+	margin-top: 40px;
+}
+.one{
+	width: 100%;
+ background: url(assets/back.jpg) no-repeat center center/cover;
+    	height: 530px;
+	
+position: relative;
+font-weight: bolder;
+/* opacity: 0.8; */
+
+}
+
+.one h1{
+	position: absolute;
+	top: 160px;
+	left: 550px;
+	font-weight: bolder;
+}
+.home-text{
+	opacity: 1;
+}
+
+.genuine{
+	width: 50%;
+	position: absolute;
+	top: 250px;
+	left: 350px;
+	
+	
+	
+}
+
+.genuine h4{
+	color:rgb(10, 3, 57);
+	
+	 font-family: 'Bree Serif', serif;
+	 font-weight:700;
+	text-align: center;
+}
+.desc{
+	margin: 40px 60px;
+	
+}
+.title{
+	background-color: #87CEEB;
+	height: 40px;
+	padding:6px 20px ;
+	margin-bottom: 10px;
+}
+.categories{
+	margin: 0px 0;
+    background-color: rgb(245, 237, 227);
+    padding: 30px;
+    border-radius: 10px;
+	padding: 50px;
+}
+.categories-title{
+    margin-top: 5px;
+font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    color: rgb(7, 7, 112);
+    font-family: sans-serif;
+}
+.img{
+	height: 250px;
+	width: 250px;
+}
+.products{
+	margin: 50px;
+	padding:0 30px;
+	
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	display:flex;
+	background-color: #151B54;
+	padding: 70px;
+	
+}
+.image{
+	margin-left: 80px;
+	
+}
+.image img{
+	width: 600px;
+	height: 300px;
+	
+}
+.about{
+	color: white;
+	padding: 20px;
+	
+}
+.insta{
+	margin-right: 10px;
+}
+.twitter{
+	margin-right: 10px;
+}
+.footer2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #151B54;
+	height: 200px;color: white;
+}.social{
+	position: absolute;
+	top: 100px;
+	left: 50%;
+}
+.arrow{
+	/* position: absolute; */
+	right: 40px;
+	bottom: 75px;
+	position: fixed;
+	z-index: 99;
+}
+#contact{
+	background-color: #98AFC7;
+padding: 30px 0;
+}
+.contact{
+    display: flex;
+    margin-top: 70px;
+	margin-bottom: 40px;
+}
+.contact-left{
+    flex-basis: 40%;
+    margin-left: 50px;
+	margin-top: 30px;
+}
+.contact-right{
+    flex-basis: 55%;
+}
+.contact-left p{
+    margin-top: 30px;
+	font-size: 1.3rem;
+	color: rgb(18, 17, 17);
+}
+.contact-left p i{
+    color:rgb(37, 36, 36);
+    margin-right: 15px;
+    font-size: 30px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #101010;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #7c089f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    margin-top: 10px;
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}

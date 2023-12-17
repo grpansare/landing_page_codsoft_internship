@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</head>
+<style>
+	
+	.li{
+	color: white;
+	position: relative;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	
+
+}
+	
+.li::after{
+content: '';
+width: 0;
+height: 3px;
+background: #ff004f;
+position: absolute;
+left: 0;
+bottom: -1px;
+transition: all 0.5s;
+}
+.li:hover{
+color: rgb(208, 255, 0);
+}
+.li:hover::after{
+width: 100%;
+
+}
+	
+	
+</style>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg nvb" id="nav">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#" >Online Medical Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent row">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  " style="margin-left: 750px;" >
+            <li class="nav-item navlinks">
+              <a class="nav-link li " aria-current="page" href="#home"  >Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link li" id="li4" href="#categories">Categories</a>
+            </li>
+			<li class="nav-item ">
+				<a class="nav-link li" href="#about" id="li2" >About</a>
+			  </li>
+			  <li class="nav-item ">
+				<a class="nav-link li" href="#contact" id="li2" >Contact</a>
+			  </li>
+            
+
+		
+      </div>
+    </nav>
+    <div class="one " id="home">
+        <div class="home-text ">
+		<h1>Genuine Medicines</h1>
+    <div class="genuine">
+		<h4 >	We provide 100% geniune medicine with certified equipments and experienced pharmacists</h4>
+		 <a class="  registerb "  href="Registration">Register</a>
+	</div>
+		</div>
+
+	</div>
+	<a href="#nav"  class="btn btn-danger arrow"><i class="fa-solid fa-arrow-up"></i></a>
+	
+	<div class="desc">
+		<div class="title">
+			<h5>Online Medical Store</h5>
+		</div>
+		<p>
+			Online Medical Store is one of the India's leading reputed online 
+			moving campanies booking platform that started its jjourney in 2006 wuth an objective to make the 
+			search for dependeable packers and movers in india a hustle free for the people.the website is a
+			resourceful database where people can find a list of packer and mover service providers available in india.
+			<br>
+			<br>
+			Ever since its inception .yhe packermovers has stood by the people to help finf a good and reliable moving compant
+			for their medicines within budget.This Website is no less than interface where people and moving companies can connect with each other and get good deal.
+		</p>
+		
+		
+	</div>
+	
+	
+</div>
+	<div class="categories" id="categories">
+		<div class="categories-title">
+		<h1 class="categories-title"><i>Shop By Categories</i></h1>	
+		</div>
+		
+		<div class="products">
+			<div class="card-group cards">
+  <div class="card">
+    <img src="assets/tablet.jpg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>Tablets</h5>
+    </div>
+  </div>
+	
+  <div class="card">
+    <img src="assets/capsule.jpeg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>Capsule</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/syrup.jpg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>Cyrup</h5>
+    </div>
+  </div>		
+		
+		</div>
+		<div class="card-group cards">
+			<div class="card">
+    <img src="assets/oinemts.jpg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>oinments</h5>
+    </div>
+  </div><div class="card">
+    <img src="assets/tablet.jpg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>Vitamins</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/suplements.jpg" class="card-img-top img" alt="...">
+    <div class="card-body">
+     <h5>suplements</h5>
+    </div>
+  </div>	
+			</div>
+	</div>
+	</div>
+	<div class="footer" id="about">
+		<div class="image" style="margin-top: 20px;">
+		<img src="assets/footer.png" style="border-radius: 20px; height: 250px;">	
+		</div>
+	<div class="about">
+		<h5>About us</h5>
+		<p>
+			Online Medical Store is one of the India's leading reputed online 
+			moving campanies booking platform that started its jjourney in 2006 wuth an objective to make the 
+			search for dependeable packers and movers in india a hustle free for the people.the website is a
+			resourceful database where people can find a list of packer and mover service providers available in india.
+			<br>
+			<br>
+			Ever since its inception .yhe packermovers has stood by the people to help finf a good and reliable moving compant
+			for their medicines within budget.This Website is no less than interface where people and moving companies can connect with each other and get good deal.
+		</p>
+		
+	</div>
+	
+		
+	</div>
+
+<div id="contact">
+                <div class="container">
+                    <div class="contact">
+                        <div class="contact-left">
+                          <h1 class="sub-title">Contact Us</h1>
+                          <p><i class="fa-solid fa-paper-plane"></i>onlineMedicine@gmail.com</p>
+                          <p><i class="fa-solid fa-square-phone"></i>177777777</p>
+                          <div class="social-icons">
+                          <a href=""><i class="fa-brands fa-facebook"></i></a>
+                          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                           
+                          </div>
+                        </div>
+                        <div class="contact-right">
+                               <form action="">
+                                <input type="text" name="Name" id="" placeholder="Your name" required>
+                                <input type="email" name="email" id="" placeholder="enter email" required>
+                                  <textarea name="message" id=""  rows="6" placeholder="your message"></textarea>
+                                  <button type="submit" class="btn btn-outline-danger btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+	  <script src="https://kit.fontawesome.com/6d9a7214cc.js" crossorigin="anonymous"></script>	
+
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
